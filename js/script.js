@@ -92,7 +92,7 @@ const numeriGenerati = [];
 
 for(let i = 1; i <= 20; i++){
     let check = false
-    let numeroGenerato = Math.floor(Math.random() * (20 - 1) ) + 1;
+    let numeroGenerato = Math.floor(Math.random() * (50 - 1) ) + 1;
     for(let n = 0; n < numeriGenerati.length; n++){
         if(numeroGenerato === numeriGenerati[n]){
             check = true;
