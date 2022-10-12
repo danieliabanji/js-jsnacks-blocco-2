@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: aliceblue;
+}
+
+.wrapper{
+    width: 1400px;
+    margin: 50px auto;
+}
+
+h3{
+    color: purple;
+}
